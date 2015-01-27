@@ -1,0 +1,99 @@
+.content {
+	min-height: 400px;
+}
+
+.page-header h1 {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	color: Lime;
+	text-align: center;
+}
+
+h3 {
+	color: LightGreen;
+	text-align: center;
+}
+
+h4 {
+	color: SeaGreen;
+	text-align: left;
+}
+
+.date {
+	text-align: right;
+	font-style : italic;
+}
+
+p {
+	text-align: justify;
+}
+
+.container > footer p {
+    text-align: center; /* centrer le footer */
+}
+   
+.clearfix textarea {
+	width: 400px;
+	height: 300px;
+}
+
+.cacher_notif {
+	display: block;
+	float: right;
+}
+
+.article img {
+	float: left;
+	margin: 0 0.5em 0.5em 0;
+}
+
+.spacer {
+	clear: both;
+}
+
+.barre {
+	width: 100%;
+	border: 1px solid white;
+	margin: 30px 0 30px 0;
+}
+
+button {
+	margin: auto 0 auto 0;
+}
+
+cacher_notif {
+	display: block;
+	float: right;
+}
+
+.afficher-article {
+	float: right;
+	color: Tomato;
+}
+
+.pagination.center, .pagination.center ul {
+    float: left;
+    position: relative;
+	margin-bottom: 50px;
+	left: 34%;
+}
+
+#chargement {
+	font-size: 4em;
+	text-align: center;
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	width: 600px;
+	margin-left: -300px;
+}
+
+#containers {
+	visibility: hidden;
+}
